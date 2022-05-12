@@ -115,7 +115,7 @@ function menudellamadonna()
 				ESX.TriggerServerCallback('esx_ambulancejob:getItemAmount', function(quantity)
 					if quantity > 0 then	
 						ExecuteCommand('me Sta Perquisendo..')
-						exports['progressBars']:startUI(2000, "Percquisendo..")
+						exports['progressBars']:startUI(2000, "Perquisendo..")
 						Citizen.Wait(2000)
 						TriggerEvent('wolf:aprimenu')
 						startAnim("random@atmrobberygen@male", "idle_a")   
